@@ -1,0 +1,123 @@
+body {
+  background-color: #fff;
+  color: #000; }
+
+.header {
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  height: 1100px;
+  font-family: "RalewayRegular";
+  font-size: 25px;
+  color: #fff;
+  height: 100%; }
+  .header .fa-chevron-circle-down {
+    transform: rotate(-235deg);
+    font-size: 14px; }
+  .header .link {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 14px; }
+  .header .who {
+    margin-top: 25px; }
+    .header .who ul {
+      padding-left: 30px;
+      width: 200px; }
+      .header .who ul li {
+        color: #fff;
+        font-size: 14px; }
+  .header ol {
+    font-size: 20px;
+    text-align: left;
+    font-family: "RalewayBold"; }
+    .header ol li {
+      padding-bottom: 5px;
+      padding-top: 5px; }
+    .header ol ul {
+      font-size: 16px;
+      color: #fff;
+      font-family: "RalewayRegular";
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      .header ol ul li {
+        padding-bottom: 0;
+        padding-top: 0; }
+  .header a {
+    display: inline-block; }
+    .header a img {
+      width: 100px;
+      height: 100px; }
+  .header h2 {
+    margin-top: 100px;
+    margin-left: 15px; }
+  .header p {
+    font-size: 16px; }
+  .header ul {
+    list-style-type: none;
+    margin-left: 0px; }
+  .header .info {
+    font-family: "RalewayRegular";
+    font-size: 14px;
+    color: #fff;
+    width: 300px;
+    text-transform: lowercase; }
+  .header .thumb {
+    margin-left: 5px; }
+    .header .thumb img {
+      width: 200px;
+      height: 200px; }
+  .header button {
+    margin-left: 100px; }
+
+.center button {
+  margin-top: 100px;
+  margin-left: 65%; }
+
+.section {
+  font-family: "RalewayRegular";
+  font-size: 25px; }
+  .section p {
+    font-size: 16px; }
+  .section ul {
+    list-style-type: none;
+    margin-left: 50px; }
+  .section h1 {
+    color: #000;
+    text-align: center;
+    margin-top: 50px; }
+  .section h3 {
+    color: #000;
+    text-align: left; }
+  .section p {
+    text-align: justify; }
+  .section ul {
+    color: #000;
+    list-style-type: none; }
+    .section ul.right li:first-of-type {
+      margin-top: 15px; }
+    .section ul.right li {
+      margin-top: 45px; }
+  .section i {
+    color: #00f; }
+
+.modal-content {
+  margin-top: 100px;
+  height: 1px; }
+  .modal-content img {
+    position: absolute;
+    top: -10px;
+    left: -465px;
+    width: 1240px !important;
+    height: 500px !important; }
+    .modal-content img.result {
+      position: absolute;
+      left: -460px;
+      max-width: 1200px !important;
+      min-width: 1200px !important;
+      height: 900px !important; }
+
+footer {
+  height: 100px; }
+  footer button {
+    margin-top: 75px;
+    margin-left: 46%;
+    margin-bottom: 100px; }
